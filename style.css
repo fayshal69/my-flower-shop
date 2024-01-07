@@ -1,0 +1,333 @@
+/* common style start */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+button {
+    background-color: #E55473;
+    border-radius: 8px;
+    padding: 20px 45px;
+    border: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* common style end */
+
+/* hear style start */
+
+header {
+    background-color: rgba(229, 84, 115, 0.10);
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-details * {
+    margin-bottom: 32px;
+    max-width: 525px;
+}
+
+.banner .banner-details h1 {
+    color: #272727;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.banner-details p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.banner-img img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+/* hear style end */
+
+/* main style start */
+
+/* featured style start */
+
+#featured {
+    margin: 100px 0;
+}
+
+.featured-text {
+    max-width: 590px;
+    margin: 0 auto 48px;
+    text-align: center;
+}
+
+.featured-text * {
+    margin-bottom: 24px;
+}
+
+.featured-text h2 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.featured-text p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.featured-img-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 20px;
+}
+
+.featured-img-container .flower .flower-img {
+    border-radius: 300px 300px 0px 0px;
+    padding: 30px 25px 0;
+    height: 500px;
+    display: flex;
+    align-items: end;
+    margin-bottom: 10px;
+}
+
+.flower-img img {
+    width: 100%;
+}
+
+.pink {
+    background-color: rgba(167, 33, 98, 0.15);
+}
+
+.blue {
+    background-color: rgba(5, 151, 160, 0.15);
+}
+
+.green {
+    background-color: rgba(71, 125, 17, 0.15);
+}
+
+.flower p {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
+/* featured style end */
+
+/* service style start */
+
+#service {
+    margin-bottom: 130px;
+    border-radius: 8px;
+    background-color: rgba(39, 39, 39, 0.05);
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px 0;
+}
+
+.service {
+    text-align: center;
+}
+
+.service p {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    margin-top: 24px;
+}
+
+/* service style end */
+
+/* hot deal style start */
+
+#hot-deal {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.hot-deal-text {
+    max-width: 595px;
+    text-align: center;
+}
+
+.hot-deal-text * {
+    margin-bottom: 24px;
+}
+
+.hot-deal-text h2 {
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.hot-deal-text .important {
+    color: #E55473;
+}
+
+.hot-deal-text button {
+    margin-top: 8px;
+}
+
+.hot-deal-text p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    line-height: 30px;
+}
+
+/* hot deal style end */
+
+/* instagram style start */
+
+#instagram {
+    margin: 120px 0;
+}
+
+.instagram-text {
+    text-align: center;
+    max-width: 595px;
+    margin: 0 auto;
+}
+
+.instagram-text * {
+    margin-bottom: 24px;
+}
+
+.instagram-text h2 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.instagram-text p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.instagram-img-container {
+    margin-top: 24px;
+    display: flex;
+    gap: 25px;
+}
+
+.insta-img img {
+    width: 100%;
+}
+
+/* instagram style end */
+
+/* subscribe style start */
+
+#subscribe {
+    margin-bottom: 120px;
+    background: url("images/Rectangle 9.png");
+    padding: 115px 0;
+    border-radius: 8px;
+}
+
+.subscribe-text h2 {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 18px;
+}
+
+.subscribe-text p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px; 
+}
+
+#subscribe form {
+    max-width: 800px;
+    margin: 48px auto 0;
+    display: flex;
+}
+
+#subscribe form input {
+    flex-grow: 1;
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+}
+
+/* subscribe style end */
+
+/* main style end */
+
+/* footer style start */
+
+footer {
+    padding: 120px 0;
+    text-align: center;
+    background: #111010;
+}
+
+.footer-text {
+    max-width: 625px;
+    margin: 0 auto;
+}
+
+.footer-text * {
+    margin-bottom: 24px;
+}
+
+.footer-text h2 {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer-text h2 span {
+    color: #E55473;
+}
+
+.footer-text p {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    line-height: 30px;
+}
+
+footer p small {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+/* footer style start */
